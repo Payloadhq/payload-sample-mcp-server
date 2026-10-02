@@ -1,0 +1,35 @@
+[project]
+name = "payload-sample-mcp-server"
+version = "1.0.0"
+description = "Free sample MCP server demonstrating per-tool-call payments: premium tools get a free quota, then a machine-readable PAYMENT_REQUIRED response. By Payload."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Payload" }]
+keywords = ["mcp", "model-context-protocol", "x402", "monetization", "sample"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Payloadhq/payload-sample-mcp-server"
+Repository = "https://github.com/Payloadhq/payload-sample-mcp-server"
+
+[project.scripts]
+payload-sample-mcp-server = "payload_sample_mcp_server.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["payload_sample_mcp_server"]
