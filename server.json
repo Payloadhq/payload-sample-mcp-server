@@ -1,1 +1,22 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","description":"Free sample MCP server demonstrating per-tool-call payments over x402: premium tools get a free quota, then a machine-readable PAYMENT_REQUIRED response; free tools stay free. Companion to Payload's MCP Monetization Kit and MCP Launch Readiness Audit.","name":"io.github.payloadhq/payload-sample-mcp-server","packages":[{"identifier":"payload-sample-mcp-server","registryType":"pypi","transport":{"type":"stdio"},"version":"1.0.0"}],"repository":{"source":"github","url":"https://github.com/payloadhq/payload-sample-mcp-server"},"title":"Payload Sample MCP Server","version":"1.0.0"}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Free sample MCP server demonstrating per-tool-call payments over x402: premium tools get a free quota, then a machine-readable PAYMENT_REQUIRED response; free tools stay free. Companion to Payload's MCP Monetization Kit and MCP Launch Readiness Audit.",
+  "name": "io.github.payloadhq/payload-sample-mcp-server",
+  "packages": [
+    {
+      "identifier": "payload-sample-mcp-server",
+      "registryType": "pypi",
+      "transport": {
+        "type": "stdio"
+      },
+      "version": "1.0.0"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/payloadhq/payload-sample-mcp-server"
+  },
+  "title": "Payload Sample MCP Server",
+  "version": "1.0.0",
+  "license": "MIT"
+}
