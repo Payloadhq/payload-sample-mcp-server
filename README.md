@@ -95,3 +95,10 @@ Support: kylers.partners@gmail.com · "Small software that earns its keep."
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+**Payload** — small, sharp tools for developers.
+Developer portal: https://payloadhq.github.io/ ·
+All products: https://payloadtools.gumroad.com/ ·
+Contact: kylers.partners@gmail.com
