@@ -82,6 +82,23 @@ Add to your Cursor MCP settings (`~/.cursor/mcp.json`):
 }
 ```
 
+### Use it in Windsurf
+
+Add to your Windsurf MCP config (`~/.codeium/windsurf/mcp_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "payload-sample": {
+      "command": "payload-sample-mcp-server"
+    }
+  }
+}
+```
+
+Restart Windsurf; the server appears under MCP servers with its free and
+premium (quota-metered) tools.
+
 ## What's deliberately missing (the paid kits)
 
 This sample **proves the monetization mechanic works**. It does not replace
