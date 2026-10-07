@@ -54,6 +54,13 @@ pip install -e .
 payload-sample-mcp-server
 ```
 
+### Or run it in Docker (no Python needed)
+
+```bash
+docker build -t payload-sample-mcp-server .
+docker run -i --rm payload-sample-mcp-server
+```
+
 ### Use it in Claude Desktop
 
 Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS, `%APPDATA%\Claude\claude_desktop_config.json` on Windows):
