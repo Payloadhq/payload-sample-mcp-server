@@ -108,3 +108,9 @@ MIT - see [LICENSE](LICENSE).
 Developer portal: https://payloadhq.github.io/ ·
 All products: https://payloadtools.gumroad.com/ ·
 Contact: kylers.partners@gmail.com
+
+---
+
+**More from Payload** · [payloadhq.github.io](https://payloadhq.github.io/) · [all Payload repos](https://github.com/Payloadhq)
+
+Related: [mcp-monetization-kit](https://github.com/Payloadhq/mcp-monetization-kit) · [mcp-monetization-demo](https://github.com/Payloadhq/mcp-monetization-demo) · [mcp-readiness-check](https://github.com/Payloadhq/mcp-readiness-check)
